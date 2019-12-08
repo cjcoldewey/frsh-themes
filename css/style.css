@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body  {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav  {
+    color: transparent;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #536dfe;
+}
+
+.navbar-light .navbar-toggler {
+    color: #536dfe;
+    border: none;
+}
+
+.navbar-brand .fa {
+    color:  #536dfe;
+}
+
+a  {
+    color: #536dfe;
+}
+
+h1  {
+    font-weight: 700;
+}
+
+.hero  {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about .fa  {
+    font-size:32px;
+    color: #536dfe
+}
+
+.cta  {
+    background-color: #536dfe;
+    color: white;
+}
+
+h2, h3, h4, h5  {
+    font-weight: 700;
+}
+
+.btn-rnd {
+    border-radius: 50px;
+}
+
+.btn-primary  {
+    background-color: #536dfe
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #7a8eff;
+    border-color: #7a8eff;
+}
+
+.btn-link  {
+    color: #536dfe
+}
+
+.btn-link:hover {
+    color: #7a8eff;
+    text-decoration: underline;
+}
+
+section  {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+footer  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card  {
+    border-color: #ECEFF3;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(233,240,243,0.4);
+    transition: all ease-in-out .2s;
+}
+
+.card:hover  {
+    transform: translate(0,-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,.1)
+}
+
+.accordion .card-header  {
+    background-color: white;
+}
+
+.accordion .card:hover  {
+    transform: none;
+    box-shadow: 0px 4px 4px 0px rgba(233,240,243,0.4);
+}
